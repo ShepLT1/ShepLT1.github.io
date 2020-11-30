@@ -1,0 +1,18 @@
+.main-container {
+  max-width: 750px;
+  margin: 0 auto !important;
+}
+
+#root {
+  background-color: rgb(48, 48, 48);
+  color: whitesmoke;
+  min-height: 100%;
+  display: block;
+  /* always make the container with position: relative in order to apply sticky footer */
+  position: relative;
+  padding-bottom: 120px;
+}
+
+#form label {
+  color: whitesmoke;
+}
