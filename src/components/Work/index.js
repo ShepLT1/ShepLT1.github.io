@@ -1,7 +1,6 @@
 import React from "react";
 import { Grid } from 'semantic-ui-react';
 import Project from '../Project';
-import Heading from '../Header';
 import BreakawayThumbnail from '../../images/breakaway.png'
 import COVIDThumbnail from '../../images/covid-tracker.png'
 import PlannerThumbnail from '../../images/day-planner.png'
@@ -17,7 +16,7 @@ function Work() {
     <Grid>
       <Grid.Row columns={2}>
         <Grid.Column>
-          <Project link="https://5sherpas.com/" src={SherpaThumbnail} title="5sherpas" />
+          <Project link="https://www.5sherpas.com/" src={SherpaThumbnail} title="5sherpas" />
         </Grid.Column>
         <Grid.Column>
           <Project link="https://breakaway-vacay.herokuapp.com/" src={BreakawayThumbnail} title="Breakaway" />

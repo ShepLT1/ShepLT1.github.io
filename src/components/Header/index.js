@@ -5,7 +5,7 @@ import "../mainStyle.css"
 function Heading(props) {
 
   return (
-    <Header as='h1' color="teal">{props.header}</Header>
+    <Header as='h1' color="teal" id={props.id}>{props.header}</Header>
   );
 }
 

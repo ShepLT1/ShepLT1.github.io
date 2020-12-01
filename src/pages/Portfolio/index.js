@@ -18,7 +18,7 @@ function Portfolio() {
       <Grid.Column width={12}>
         <About />
         <Expertise />
-        <Heading header="Portfolio" />
+        <Heading header="Portfolio" id="work" />
         <Work />
         <Contact />
       </Grid.Column>

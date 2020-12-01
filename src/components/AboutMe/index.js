@@ -5,7 +5,7 @@ import Heading from '../../components/Header';
 function AboutMe() {
 
   return (
-    <div>
+    <div id="about">
       <Grid.Row>
         <Heading header="About Me" />
       </Grid.Row>
