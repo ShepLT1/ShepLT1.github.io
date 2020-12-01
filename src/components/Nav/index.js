@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid, Image, Icon } from 'semantic-ui-react';
 import CoverPhoto from '../../images/Zoom-cover-photo.png';
+import Resume from '../../images/Luke-Shepherd-Resume.pdf';
 import "./style.css";
 
 function Nav() {
@@ -29,7 +30,7 @@ function Nav() {
           <div id="links-container">
             <a href="https://github.com/ShepLT1" target="_blank" rel="noopener noreferrer" className="link"><Icon name='github' size="big" /></a>
             <a href="https://www.linkedin.com/in/luke-t-shepherd" target="_blank" rel="noopener noreferrer" className="link"><Icon name='linkedin' size="big" /></a>
-            <a href="mailto:luke.t.shepherd@gmail.com" className="link"><Icon name='envelope outline' size="big" /></a>
+            <a href={Resume} target="_blank" rel="noopener noreferrer" className="link"><Icon name='file alternate outline' size="big" /></a>
           </div>
           <p>&copy; 2020 Luke Shepherd</p>
         </Grid.Column>
