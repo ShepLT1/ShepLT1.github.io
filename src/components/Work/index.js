@@ -13,7 +13,7 @@ import "./style.css"
 function Work() {
 
   return (
-    <Grid>
+    <Grid stackable centered>
       <Grid.Row columns={2}>
         <Grid.Column>
           <Project link="https://www.5sherpas.com/" src={SherpaThumbnail} title="5sherpas" />

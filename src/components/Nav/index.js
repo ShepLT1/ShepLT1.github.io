@@ -19,7 +19,7 @@ function Nav() {
             <a href="#about" className="nav-item">About Me</a>
           </div>
           <div className="nav-item-container">
-            <a href="#expertise" className="nav-item">Proficiencies</a>
+            <a href="#expertise" className="nav-item">Expertise</a>
           </div>
           <div className="nav-item-container">
             <a href="#work" className="nav-item">My Work</a>

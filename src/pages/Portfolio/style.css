@@ -1,5 +1,5 @@
 .main-container {
-  max-width: 95%;
+  max-width: 1500px;
   margin: 0 auto !important;
 }
 
@@ -10,9 +10,11 @@
   display: block;
   /* always make the container with position: relative in order to apply sticky footer */
   position: relative;
-  padding-bottom: 120px;
+  padding: 0 2.5% 100px 2.5%;
 }
 
 #form label {
   color: whitesmoke;
 }
+
+/* at 1280px, make nav flush with left hand side of page (left padding & margin = 0) */

@@ -1,11 +1,14 @@
 import React from "react";
 import { Header } from 'semantic-ui-react';
-import "../mainStyle.css"
+import "./style.css"
 
 function Heading(props) {
 
   return (
-    <Header as='h1' color="teal" id={props.id}>{props.header}</Header>
+    <div>
+      <Header as='h1' textAlign="center" id={props.id}>{props.header}</Header>
+      <div className="title-line"></div>
+    </div>
   );
 }
 
