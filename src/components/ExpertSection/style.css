@@ -6,6 +6,15 @@
   padding-right: 80px;
 }
 
+.expert-section:hover {
+  background-color: rgb(198, 253, 255);
+  color: rgb(8, 8, 8);
+}
+
+.expert-section:hover > .icon {
+  color: rgb(180, 51, 0);
+}
+
 .expert-section h1 {
   margin-top: 40px;
 }
@@ -16,6 +25,7 @@
 
 .server-align {
   margin-left: -3.5px !important;
+  margin-top: -3.5px !important;
 }
 
 .cog-align {
