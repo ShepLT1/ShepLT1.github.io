@@ -12,7 +12,8 @@
 }
 
 .expert-section:hover > .icon {
-  color: rgb(180, 51, 0);
+  /* color: rgb(180, 51, 0); */
+  color: rgb(172, 0, 86);
 }
 
 .expert-section h1 {
