@@ -3,9 +3,29 @@
   background-color: #1bbec3;
   margin-left: 0;
   margin-right: 7.5%;
-  padding-bottom: 15px;
   color: rgb(8, 8, 8);
   text-align: center;
+  position: fixed;
+  width: 278px;
+  bottom: 0;
+  top: 0;
+}
+
+#nav-row {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+#nav-row::-webkit-scrollbar {
+  display: none;
+}
+
+#nav-column {
+  position: relative;
+  height: 100%;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 #cover-photo {
@@ -20,7 +40,7 @@
 }
 
 #brief {
-  padding-bottom: 64px;
+  padding-bottom: 55px;
   margin-bottom: 0;
   border-bottom: #83e7eb 2px solid;
 }
@@ -67,4 +87,8 @@
 
 .link:hover {
   color: #affcff;
+}
+
+#copyright {
+  padding-bottom: 64px;
 }

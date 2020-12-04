@@ -8,8 +8,8 @@ function Nav() {
 
   return (
     <Grid id="nav-container">
-      <Grid.Row>
-        <Grid.Column>
+      <Grid.Row id="nav-row">
+        <Grid.Column id="nav-column">
           <a href="#">
             <Image src={CoverPhoto} id="cover-photo" circular />
           </a>
@@ -32,7 +32,7 @@ function Nav() {
             <a href="https://www.linkedin.com/in/luke-t-shepherd" target="_blank" rel="noopener noreferrer" className="link"><Icon name='linkedin' size="big" /></a>
             <a href={Resume} target="_blank" rel="noopener noreferrer" className="link"><Icon name='file alternate outline' size="big" /></a>
           </div>
-          <p>&copy; 2020 Luke Shepherd</p>
+          <p id="copyright">&copy; 2020 Luke Shepherd</p>
         </Grid.Column>
       </Grid.Row>
     </Grid>
