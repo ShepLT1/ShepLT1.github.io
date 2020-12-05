@@ -1,0 +1,7 @@
+.section-line {
+  width: 100%;
+  border-bottom: 3px solid rgb(84, 84, 84, .9);
+  margin: 90px auto;
+  margin-bottom: 25px;
+  display: block;
+}

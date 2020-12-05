@@ -6,6 +6,7 @@ import Expertise from '../../components/Expertise';
 import Work from '../../components/Work';
 import Contact from '../../components/Contact';
 import Heading from '../../components/Header';
+import SectionLine from '../../components/SectionLine';
 import "./style.css";
 
 function Portfolio() {
@@ -17,9 +18,11 @@ function Portfolio() {
       </Grid.Column>
       <Grid.Column width={12}>
         <About />
+        <SectionLine />
         <Expertise />
-        <Heading header="My Work" id="work" />
+        <SectionLine />
         <Work />
+        <SectionLine />
         <Contact />
       </Grid.Column>
     </Grid>
