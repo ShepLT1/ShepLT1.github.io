@@ -12,7 +12,9 @@ function Contact() {
       </Grid.Row>
       <Grid.Row>
         <Grid.Column id="contact-col">
-          <p>I am currently located in Seattle, Washington. Please feel free to reach out to me by email <span className="contact-info">luke.t.shepherd@gmail.com</span> or phone <span className="contact-info">(425)736-6565</span>.</p>
+          <p>I am currently located in Seattle, Washington. Please feel free to reach out to me.</p>
+          <p className="contact-info">luke.t.shepherd@gmail.com</p>
+          <p className="contact-info">(425)736-6565</p>
         </Grid.Column>
       </Grid.Row>
     </Grid>

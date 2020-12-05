@@ -5,7 +5,6 @@ import About from '../../components/AboutMe';
 import Expertise from '../../components/Expertise';
 import Work from '../../components/Work';
 import Contact from '../../components/Contact';
-import Heading from '../../components/Header';
 import SectionLine from '../../components/SectionLine';
 import "./style.css";
 
