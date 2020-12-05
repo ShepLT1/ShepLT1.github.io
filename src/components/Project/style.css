@@ -27,13 +27,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: opacity .5s;
+  transition: .5s;
+  transform: perspective(50em) rotateX(-90deg)
 }
 
 .projectImg:hover + .project-info,
 .project-info:hover {
   opacity: .9;
   transition: .5s;
+  transform: rotateX(0deg)
 }
 
 #project-button {
