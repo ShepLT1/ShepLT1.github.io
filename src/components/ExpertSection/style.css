@@ -5,15 +5,23 @@
   padding: 50px;
   padding-right: 80px;
   border-radius: 5px;
+  transition: .5s
+}
+
+.icon {
+  color: whitesmoke;
+  transition: .5s;
 }
 
 .expert-section:hover {
   background-color: rgb(198, 253, 255);
   color: rgb(8, 8, 8);
+  transition: .5s;
 }
 
 .expert-section:hover > .icon {
   color: rgb(172, 0, 86);
+  transition: .5s;
 }
 
 .expert-section h1 {

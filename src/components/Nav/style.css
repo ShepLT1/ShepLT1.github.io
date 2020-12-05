@@ -51,10 +51,12 @@
   align-items: center;
   justify-content: center;
   border-bottom: #83e7eb 2px solid;
+  transition: .5s;
 }
 
 .nav-item-container:hover {
   background-color: #83e7eb;
+  transition: .5s;
 }
 
 .nav-item {
@@ -66,10 +68,12 @@
   color: rgb(8, 8, 8);
   font-size: 17px;
   font-weight: bold;
+  transition: .5s;
 }
 
 .nav-item:hover {
   color: rgb(172, 0, 86);
+  transition: .5s;
 }
 
 #links-container {
