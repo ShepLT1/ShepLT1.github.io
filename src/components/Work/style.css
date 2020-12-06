@@ -1,3 +1,9 @@
 .project-col {
-  width: 100%;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.project-row {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
 }
