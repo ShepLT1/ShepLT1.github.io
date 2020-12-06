@@ -20,10 +20,10 @@ function Expertise() {
       </Grid.Row>
       <Grid.Row columns={2}>
         <Grid.Column>
-          <ExpertSection icon="cog" iconClass="cog-align" title="Other Tools" details="Object-Oriented Programming (OOP) -- MVC Paradigm -- Git -- GitHub -- Heroku -- Test-Driven Development (TDD) -- Computer Science" />
+          <ExpertSection icon="cog" iconClass="cog-align" title="Other Tools" details="OOP -- MVC Paradigm -- Git -- GitHub -- Heroku -- TDD -- Computer Science" />
         </Grid.Column>
         <Grid.Column>
-          <ExpertSection icon="lock" iconClass="lock-align" title="Security" details="Session Storage -- Bcrypt -- Passport.js -- Protected Routes -- User Credential Validation with Redux.js" />
+          <ExpertSection icon="lock" iconClass="lock-align" title="Security" details="Session Storage -- Bcrypt -- Passport.js -- Protected Routes -- Credential Validation with Redux.js" />
         </Grid.Column>
       </Grid.Row>
     </Grid>

@@ -1,24 +1,29 @@
 .projectImg {
   width: 100%;
   height: 100%;
-  object-fit: cover;
   border-radius: 5px;
 }
 
 .project-div {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-info {
   background-color: rgba(198, 253, 255, 0.9);
   color: rgb(8, 8, 8);
   position: absolute;
-  top: 28px;
-  bottom: 28px;
-  left: 42px;
-  right: 42px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  margin-left: 42px;
+  margin-right: 42px;
   border-radius: 5px;
   padding: 28px;
   text-align: center;
@@ -28,11 +33,34 @@
   justify-content: center;
   align-items: center;
   transition: .5s;
-  transform: perspective(50em) rotateX(-90deg)
+  transform: perspective(50em) rotateX(-90deg);
+}
+
+.project-info::-webkit-scrollbar {
+  display: none;
+}
+
+.project-info-content {
+  position: absolute;
+  top: 50%;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  transition: .5s;
 }
 
 .project-info p {
   font-size: 100%;
+}
+
+.project-info:hover > .project-info-content,
+ div.project-div:hover .project-info-content {
+  transform: translateY(-50%);
+  opacity: 1;
+  transition: .5s
 }
 
 .projectImg:hover + .project-info,
@@ -44,11 +72,20 @@
 
 #project-button {
   color: rgb(198, 253, 255) !important;
-  border: rgb(172, 0, 86) solid 1px !important;
   background-color: rgb(172, 0, 86) !important;
   margin: 5px;
   width: 40px;
   padding-left: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#project-button.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .arrow {
@@ -57,12 +94,35 @@
 
 i {
   margin: 0 !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+i:before {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .visible {
   margin: 0 !important;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
   margin-bottom: 5px !important;
+}
+
+.btn-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
