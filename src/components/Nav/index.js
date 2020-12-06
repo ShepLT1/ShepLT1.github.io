@@ -39,7 +39,7 @@ function Nav() {
               content='Github Profile'
               size='tiny'
               position="top right"
-              offset={[0, 7.5]}
+              offset={[0, 10]}
               style={popupStyle}
               inverted
             />
@@ -48,7 +48,7 @@ function Nav() {
               content='LinkedIn Profile'
               size='tiny'
               position="top center"
-              offset={[0, 7.5]}
+              offset={[0, 10]}
               style={popupStyle}
               inverted
             />
@@ -57,7 +57,7 @@ function Nav() {
               content='Resume'
               size='tiny'
               position="top left"
-              offset={[0, 7.5]}
+              offset={[0, 10]}
               style={popupStyle}
               inverted
             />
