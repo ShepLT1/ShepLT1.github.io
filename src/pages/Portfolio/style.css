@@ -10,11 +10,19 @@
   display: block;
   /* always make the container with position: relative in order to apply sticky footer */
   position: relative;
-  padding: 0 2.5% 100px 2.5%;
 }
 
 #form label {
   color: whitesmoke;
+}
+
+#main-col {
+  padding: 0 7.5% 100px 7.5%;
+}
+
+#nav-col {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* at 1280px, make nav flush with left hand side of page (left padding & margin = 0) */

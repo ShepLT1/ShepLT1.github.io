@@ -31,6 +31,10 @@
   transform: perspective(50em) rotateX(-90deg)
 }
 
+.project-info p {
+  font-size: 100%;
+}
+
 .projectImg:hover + .project-info,
 .project-info:hover {
   opacity: .9;

@@ -12,10 +12,10 @@ function Portfolio() {
 
   return (
     <Grid centered stackable className="main-container" columns={2}>
-      <Grid.Column width={4}>
+      <Grid.Column width={4} id="nav-col">
         <Nav />
       </Grid.Column>
-      <Grid.Column width={12}>
+      <Grid.Column width={12} id="main-col">
         <About />
         <SectionLine />
         <Expertise />
