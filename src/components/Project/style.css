@@ -37,7 +37,7 @@
 
 .projectImg:hover + .project-info,
 .project-info:hover {
-  opacity: .9;
+  opacity: 1;
   transition: .5s;
   transform: rotateX(0deg)
 }
