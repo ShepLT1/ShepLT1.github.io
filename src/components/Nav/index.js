@@ -36,7 +36,7 @@ function Nav() {
           <div id="links-container">
             <Popup
               trigger={<a href="https://github.com/ShepLT1" target="_blank" rel="noopener noreferrer" className="link"><Icon name='github' size="big" /></a>}
-              content='Github Profile'
+              content='Github'
               size='tiny'
               position="top right"
               offset={[0, 10]}
@@ -45,7 +45,7 @@ function Nav() {
             />
             <Popup
               trigger={<a href="https://www.linkedin.com/in/luke-t-shepherd" target="_blank" rel="noopener noreferrer" className="link"><Icon name='linkedin' size="big" /></a>}
-              content='LinkedIn Profile'
+              content='LinkedIn'
               size='tiny'
               position="top center"
               offset={[0, 10]}

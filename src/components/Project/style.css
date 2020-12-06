@@ -88,10 +88,6 @@
   align-items: center;
 }
 
-.arrow {
-  margin: 0 !important;
-}
-
 i {
   margin: 0 !important;
   display: flex !important;
@@ -114,6 +110,11 @@ i:before {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hidden {
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
