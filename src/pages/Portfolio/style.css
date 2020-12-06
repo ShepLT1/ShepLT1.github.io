@@ -4,7 +4,8 @@
 }
 
 #root {
-  background-color: rgb(48, 48, 48);
+  background: url("../../images/mtn-background.png") center center fixed;
+  background-size: cover;
   color: whitesmoke;
   min-height: 100%;
   display: block;
