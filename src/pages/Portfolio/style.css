@@ -6,6 +6,7 @@
   max-width: 2500px;
   margin: 0 auto !important;
   padding-bottom: 75px !important;
+  overflow-y: hidden;
 }
 
 #root {
@@ -28,6 +29,7 @@ body {
 
 #main-col {
   padding: 0 5%;
+  overflow-y: hidden;
 }
 
 #nav-col {
