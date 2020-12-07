@@ -50,6 +50,8 @@
   flex-direction: column;
   padding: 20px;
   transition: .5s;
+  overflow-y: scroll;
+  min-height: 100%;
 }
 
 .project-info p {
@@ -58,9 +60,9 @@
 
 .project-info:hover > .project-info-content,
  div.project-div:hover .project-info-content {
-  transform: translateY(-50%);
+  top: 0;
   opacity: 1;
-  transition: .5s
+  transition: .5s;
 }
 
 .projectImg:hover + .project-info,

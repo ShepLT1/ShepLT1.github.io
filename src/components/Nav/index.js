@@ -16,13 +16,13 @@ function Nav() {
   }
 
   const showNav = () => {
-    document.getElementById('nav-container').style.display = 'flex';
+    document.getElementById('nav-container').style.transform = 'translateX(0px)';
     document.getElementById('nav-toggle').style.display = 'none';
     document.getElementById('nav-collapse').style.display = 'flex';
   }
 
   const collapseNav = () => {
-    document.getElementById('nav-container').style.display = 'none';
+    document.getElementById('nav-container').style.transform = 'translateX(-250px)';
     document.getElementById('nav-toggle').style.display = 'flex';
     document.getElementById('nav-collapse').style.display = 'none';
   }

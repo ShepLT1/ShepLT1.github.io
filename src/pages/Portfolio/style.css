@@ -40,4 +40,9 @@ body {
     width: 100% !important;
     display: block !important;
   }
+
+  #main-col {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
 }
