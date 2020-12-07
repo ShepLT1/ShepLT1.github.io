@@ -1,16 +1,25 @@
+* {
+  overflow-x: hidden;
+}
+
 .main-container {
   max-width: 1500px;
   margin: 0 auto !important;
+  padding-bottom: 50px !important;
 }
 
 #root {
   background: url("../../images/mtn-background.png") center center fixed;
   background-size: cover;
   color: whitesmoke;
-  min-height: 100%;
-  display: block;
-  /* always make the container with position: relative in order to apply sticky footer */
-  position: relative;
+}
+
+body {
+  background-color: rgb(12, 12, 12) !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 #form label {
@@ -26,4 +35,9 @@
   padding-right: 0;
 }
 
-/* at 1280px, make nav flush with left hand side of page (left padding & margin = 0) */
+@media only screen and (max-width: 767px) {
+  .main-container {
+    width: 100% !important;
+    display: block !important;
+  }
+}

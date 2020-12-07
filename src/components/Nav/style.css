@@ -9,16 +9,13 @@
   top: 0;
   right: 75%;
   margin-right: 0;
+  z-index: 1;
 }
 
 #nav-row {
   overflow-y: scroll;
   overflow-x: hidden;
   height: 100%;
-}
-
-#nav-row::-webkit-scrollbar {
-  display: none;
 }
 
 #nav-column {
@@ -95,4 +92,41 @@
 
 #copyright {
   padding-bottom: 64px;
+}
+
+#nav-toggle {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  margin: 0;
+  background-color: rgb(172, 0, 86);
+  height: 40px;
+  width: 40px;
+}
+
+#nav-collapse {
+  display: none;
+  position: absolute;
+  right: 18px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #nav-container {
+    left: 14px;
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #nav-container {
+    display: none;
+    width: 250px;
+  }
+
+  #nav-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
