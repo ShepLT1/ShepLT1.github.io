@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Image, Icon, Popup, Button } from 'semantic-ui-react';
 import CoverPhoto from '../../images/Zoom-cover-photo.png';
-import Resume from '../../images/Luke-Shepherd-Resume.pdf';
+import Resume from '../../images/Luke-Shepherd.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
