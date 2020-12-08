@@ -1,5 +1,9 @@
 #contact-col {
   width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .contact-info {
@@ -8,4 +12,13 @@
 
 #contact-title-container {
   padding-bottom: 2.5px;
+}
+
+#email-link {
+  font-size: 115%;
+  margin-bottom: 15px;
+}
+
+#email-link:hover {
+  color: rgb(202, 0, 84);
 }

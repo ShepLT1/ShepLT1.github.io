@@ -13,7 +13,7 @@ function Contact() {
       <Grid.Row>
         <Grid.Column id="contact-col">
           <p>I am currently located in Seattle, Washington. Please feel free to reach out to me.</p>
-          <p className="contact-info">luke.t.shepherd@gmail.com</p>
+          <a href="mailto:luke.t.shepherd@gmail.com" className="contact-info" id="email-link">luke.t.shepherd@gmail.com</a>
           <p className="contact-info">(425)736-6565</p>
         </Grid.Column>
       </Grid.Row>
