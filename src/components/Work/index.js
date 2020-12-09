@@ -2,7 +2,7 @@ import React from "react";
 import { Grid } from 'semantic-ui-react';
 import Project from '../Project';
 import BreakawayThumbnail from '../../images/breakaway.png'
-import COVIDThumbnail from '../../images/covid.jpeg'
+import QuizThumbnail from '../../images/code-quiz.png'
 import PlannerThumbnail from '../../images/day-planner.png'
 import FitnessThumbnail from '../../images/fitness-app.jpeg'
 import WeatherThumbnail from '../../images/weather-forecast.png'
@@ -39,7 +39,7 @@ function Work() {
           <Project link="https://sheplt1.github.io/hows-the-weather/" repo="https://github.com/ShepLT1/hows-the-weather" src={WeatherThumbnail} title="How's the Weather" brief="How's the Weather utilizes search functionality to find current and projected weather conditions for user-selected cities." />
         </Grid.Column>
         <Grid.Column className="project-col">
-          <Project link="https://sheplt1.github.io/covid-tracker/" repo="https://github.com/ShepLT1/covid-tracker" src={COVIDThumbnail} title="COVID-19 Tracker" brief="COVID-19 Tracker is a one-stop shop for relevant COVID-19 data, news, and an interactive map based on user-selected location." />
+          <Project link="https://sheplt1.github.io/Code-Quiz/" repo="https://github.com/ShepLT1/Code-Quiz/" src={QuizThumbnail} title="Code Quiz" brief="Code Quiz tests the user's Javascript knowledge and allows for saving and viewing of highscores." />
         </Grid.Column>
       </Grid.Row>
     </Grid>
