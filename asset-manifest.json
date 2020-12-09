@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a02a8007.chunk.css",
-    "main.js": "/static/js/main.529c0031.chunk.js",
-    "main.js.map": "/static/js/main.529c0031.chunk.js.map",
+    "main.js": "/static/js/main.a000bbb9.chunk.js",
+    "main.js.map": "/static/js/main.a000bbb9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b95dbd2b.js",
     "runtime-main.js.map": "/static/js/runtime-main.b95dbd2b.js.map",
     "static/css/2.85f7760d.chunk.css": "/static/css/2.85f7760d.chunk.css",
@@ -17,7 +17,7 @@
     "static/media/Zoom-cover-photo.88c21576.png": "/static/media/Zoom-cover-photo.88c21576.png",
     "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff",
     "static/media/breakaway.404493d5.png": "/static/media/breakaway.404493d5.png",
-    "static/media/covid.638062e9.jpeg": "/static/media/covid.638062e9.jpeg",
+    "static/media/code-quiz.3fd11941.png": "/static/media/code-quiz.3fd11941.png",
     "static/media/day-planner.2290c5a3.png": "/static/media/day-planner.2290c5a3.png",
     "static/media/fitness-app.6ebd019f.jpeg": "/static/media/fitness-app.6ebd019f.jpeg",
     "static/media/style.css": "/static/media/mtn-background.9bbf450d.png",
@@ -28,6 +28,6 @@
     "static/css/2.85f7760d.chunk.css",
     "static/js/2.3b0425f8.chunk.js",
     "static/css/main.a02a8007.chunk.css",
-    "static/js/main.529c0031.chunk.js"
+    "static/js/main.a000bbb9.chunk.js"
   ]
 }
