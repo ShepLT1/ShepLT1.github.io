@@ -13,7 +13,7 @@ function Expertise() {
       </Grid.Row>
       <Grid.Row columns={2} className="expert-row">
         <Grid.Column className="expert-col">
-          <ExpertSection icon="desktop" title="Front End" details="React -- React Redux -- HTML -- CSS -- JQuery -- Bootstrap -- AJAX -- Semantic UI" />
+          <ExpertSection icon="desktop" title="Front End" details="React -- React Redux -- HTML -- CSS -- JQuery -- Bootstrap -- AJAX -- Semantic UI -- Responsive Design" />
         </Grid.Column>
         <Grid.Column className="expert-col">
           <ExpertSection icon="server" iconClass="server-align" title="Back End" details="MySQL -- MongoDB -- Node -- Express -- Sequelize -- Mongoose -- JSON -- Web Services API" />
