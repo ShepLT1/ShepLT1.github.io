@@ -13,18 +13,18 @@ function Expertise() {
       </Grid.Row>
       <Grid.Row columns={2} className="expert-row">
         <Grid.Column className="expert-col">
-          <ExpertSection icon="desktop" title="Front End" details="React -- React Hooks -- React Router -- Semantic UI -- HTML -- CSS -- JQuery -- Bootstrap" />
+          <ExpertSection icon="desktop" title="Front End" details="React -- React Redux -- HTML -- CSS -- JQuery -- Bootstrap -- AJAX -- Semantic UI -- Responsive Design" />
         </Grid.Column>
         <Grid.Column className="expert-col">
-          <ExpertSection icon="server" iconClass="server-align" title="Back End" details="MySQL -- MongoDB -- Node -- Express -- Sequelize -- Mongoose -- AJAX -- JSON -- Web Services API" />
+          <ExpertSection icon="server" iconClass="server-align" title="Back End" details="MySQL -- MongoDB -- Node -- Express -- Sequelize -- Mongoose -- JSON -- Web Services API" />
         </Grid.Column>
       </Grid.Row>
       <Grid.Row columns={2} className="expert-row">
         <Grid.Column className="expert-col">
-          <ExpertSection icon="cog" iconClass="cog-align" title="Other Tools" details="OOP -- MVC Paradigm -- Git -- GitHub -- Heroku -- TDD -- Computer Science" />
+          <ExpertSection icon="cog" iconClass="cog-align" title="Other Tools" details="OOP -- MVC Paradigm -- Git -- GitHub -- Heroku -- TDD -- Computer Science -- Data Structures" />
         </Grid.Column>
         <Grid.Column className="expert-col">
-          <ExpertSection icon="lock" iconClass="lock-align" title="Security" details="Session Storage -- Bcrypt -- Passport.js -- Protected Routes -- Credential Validation with Redux.js" />
+          <ExpertSection icon="lock" iconClass="lock-align" title="Security" details="Session Storage -- Bcrypt -- Passport.js -- Protected Routes -- Credential Validation" />
         </Grid.Column>
       </Grid.Row>
     </Grid>
