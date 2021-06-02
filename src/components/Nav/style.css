@@ -10,6 +10,8 @@
   right: 75%;
   margin-right: 0;
   z-index: 1;
+  transform: translateX(0px);
+  transition: .35s;
 }
 
 #nav-row {
@@ -96,6 +98,8 @@
 
 #nav-toggle {
   display: none;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   z-index: 2;
   margin: 0;
@@ -119,15 +123,6 @@
 
 @media only screen and (max-width: 767px) {
   #nav-container {
-    transform: translateX(-250px);
     width: 250px;
-    transition: .5s;
   }
-
-  #nav-toggle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
 }

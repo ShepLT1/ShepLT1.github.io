@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react"; 
 import { Grid, Image, Icon, Popup, Button } from 'semantic-ui-react';
 import CoverPhoto from '../../images/Zoom-cover-photo.png';
 import Resume from '../../images/Luke-Shepherd-Resume.pdf';
@@ -26,6 +26,29 @@ function Nav() {
     document.getElementById('nav-toggle').style.display = 'flex';
     document.getElementById('nav-collapse').style.display = 'none';
   }
+
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 767);
+
+  const updateDesktop = () => {
+    setDesktop(window.innerWidth > 767);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateDesktop);
+    return () => window.removeEventListener("resize", updateDesktop);
+  });
+
+  useEffect(() => {
+    if (isDesktop) {
+      document.getElementById('nav-container').style.transform = 'translateX(0px)';
+      document.getElementById('nav-toggle').style.display = 'none';
+      document.getElementById('nav-collapse').style.display = 'none';
+    } else {
+      document.getElementById('nav-container').style.transform = 'translateX(-250px)';
+      document.getElementById('nav-toggle').style.display = 'flex';
+      document.getElementById('nav-collapse').style.display = 'none';
+    }
+  },[isDesktop])
 
   return (
     <div>
