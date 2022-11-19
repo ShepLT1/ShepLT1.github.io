@@ -13,18 +13,18 @@ function Expertise() {
       </Grid.Row>
       <Grid.Row columns={2} className="expert-row">
         <Grid.Column className="expert-col">
-          <ExpertSection icon="desktop" title="Front End" details="React -- React Redux -- HTML -- CSS -- JQuery -- Bootstrap -- AJAX -- Semantic UI -- Responsive Design" />
+          <ExpertSection icon="desktop" title="Front End" details="React -- React Router -- Redux -- HTML -- CSS -- Axios -- Mobile Responsive" />
         </Grid.Column>
         <Grid.Column className="expert-col">
-          <ExpertSection icon="server" iconClass="server-align" title="Back End" details="MySQL -- MongoDB -- Node -- Express -- Sequelize -- Mongoose -- JSON -- Web Services API" />
+          <ExpertSection icon="server" iconClass="server-align" title="Back End" details="Node -- Express -- REST API -- Mongoose -- User/Route Authentication -- Webhooks -- JWT" />
         </Grid.Column>
       </Grid.Row>
       <Grid.Row columns={2} className="expert-row">
         <Grid.Column className="expert-col">
-          <ExpertSection icon="cog" iconClass="cog-align" title="Other Tools" details="OOP -- MVC Paradigm -- Git -- GitHub -- Heroku -- TDD -- Computer Science -- Data Structures" />
+          <ExpertSection icon="database" iconClass="db-align" title="Data Management" details="MongoDB -- Mongoose -- NoSQL -- SQL -- MySQL -- Scalable Database Architecture" />
         </Grid.Column>
         <Grid.Column className="expert-col">
-          <ExpertSection icon="lock" iconClass="lock-align" title="Security" details="Session Storage -- Bcrypt -- Passport.js -- Protected Routes -- Credential Validation" />
+          <ExpertSection icon="cog" iconClass="cog-align" title="General" details="MERN -- SERN -- Javascript -- Python -- OOP -- MVC Paradigm -- Git -- Heroku -- Computer Science -- Data Structures" />
         </Grid.Column>
       </Grid.Row>
     </Grid>

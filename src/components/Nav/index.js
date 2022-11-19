@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"; 
+import React, { useState, useEffect } from "react";
 import { Grid, Image, Icon, Popup, Button } from 'semantic-ui-react';
 import CoverPhoto from '../../images/Zoom-cover-photo.png';
 import Resume from '../../images/Luke-Shepherd-Resume.pdf';
@@ -48,7 +48,7 @@ function Nav() {
       document.getElementById('nav-toggle').style.display = 'flex';
       document.getElementById('nav-collapse').style.display = 'none';
     }
-  },[isDesktop])
+  }, [isDesktop])
 
   return (
     <div>
@@ -63,7 +63,7 @@ function Nav() {
               <Image src={CoverPhoto} id="cover-photo" circular />
             </a>
             <h1 id="name">Luke Shepherd</h1>
-            <p id="brief"><i>Full-Stack Web Developer</i></p>
+            <p id="brief"><i>Full-Stack Software Engineer</i></p>
             <div className="nav-item-container">
               <a href="#about" className="nav-item">About Me</a>
             </div>
