@@ -23,7 +23,7 @@ function Expertise() {
             icon="server"
             iconClass="server-align"
             title="Back End"
-            details="Node -- Express -- Mongoose -- Django -- Django REST Framework -- REST/Bulk API -- User/Route Authentication -- Webhooks -- JWT"
+            details="Spring -- Node -- Express -- Mongoose -- Django -- Django REST Framework -- REST/Bulk API -- User/Route Authentication -- Webhooks -- JWT"
           />
         </Grid.Column>
       </Grid.Row>
@@ -41,7 +41,7 @@ function Expertise() {
             icon="cog"
             iconClass="cog-align"
             title="General"
-            details="MERN -- SERN -- Javascript -- Python -- AWS -- Heroku -- Docker -- Terraform -- Git -- CLI -- OOP -- MVC Paradigm -- Computer Science -- Data Structures -- Integrations"
+            details="Java -- Javascript -- Python -- AWS -- Heroku -- Docker -- Terraform -- Git -- CLI -- OOP -- MVC Paradigm -- Computer Science -- Data Structures -- Integrations"
           />
         </Grid.Column>
       </Grid.Row>

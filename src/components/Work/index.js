@@ -3,7 +3,7 @@ import { Grid } from "semantic-ui-react";
 import Project from "../Project";
 import BreakawayThumbnail from "../../images/breakaway.png";
 import PlannerThumbnail from "../../images/day-planner.png";
-import ShoppiesThumbnail from "../../images/shoppies.png";
+import MTGThumbnail from "../../images/mtg-deck-builder.png";
 import WeatherThumbnail from "../../images/weather-forecast.png";
 import SherpaThumbnail from "../../images/5sherpas.png";
 import HobbyThumbnail from "../../images/hobby-trend.png";
@@ -29,11 +29,11 @@ function Work() {
         </Grid.Column>
         <Grid.Column className="project-col">
           <Project
-            link="https://www.5sherpas.com/"
-            repo="https://github.com/MVC-5/5sherpas"
-            src={SherpaThumbnail}
-            title="5sherpas"
-            brief="The 5sherpas app generates suggestions for constructive activities based on your personal development goals and tracks your weekly progress."
+            link="https://github.com/ShepLT1/deck-builder-mtg"
+            repo="https://github.com/ShepLT1/deck-builder-mtg"
+            src={MTGThumbnail}
+            title="MTG Deck Builder"
+            brief="MTG Deck Builder is a backend application that allows users to create custom Magic: The Gathering cards and 60-card decks."
           />
         </Grid.Column>
       </Grid.Row>
@@ -49,22 +49,22 @@ function Work() {
         </Grid.Column>
         <Grid.Column className="project-col">
           <Project
-            link="https://sheplt1.github.io/Day-Planner/"
-            repo="https://github.com/ShepLT1/Day-Planner"
-            src={PlannerThumbnail}
-            title="Day Planner"
-            brief="Day Planner allows the user to save events for each work hour of a selected workday. Events are color-coded based on past, current, or upcoming."
+            link="https://www.5sherpas.com/"
+            repo="https://github.com/MVC-5/5sherpas"
+            src={SherpaThumbnail}
+            title="5sherpas"
+            brief="The 5sherpas app generates suggestions for constructive activities based on your personal development goals and tracks your weekly progress."
           />
         </Grid.Column>
       </Grid.Row>
       <Grid.Row columns={2} className="project-row">
         <Grid.Column className="project-col">
           <Project
-            link="https://sheplt1.github.io/the-shoppies/"
-            repo="https://github.com/ShepLT1/the-shoppies"
-            src={ShoppiesThumbnail}
-            title="The Shoppies"
-            brief="Shopify fall internship challenge: Movie awards for entrepreneurs. Basic front-end application that utilizes React Redux to manage state and avoid tedious props drilling."
+            link="https://sheplt1.github.io/Day-Planner/"
+            repo="https://github.com/ShepLT1/Day-Planner"
+            src={PlannerThumbnail}
+            title="Day Planner"
+            brief="Day Planner allows the user to save events for each work hour of a selected workday. Events are color-coded based on past, current, or upcoming."
           />
         </Grid.Column>
         <Grid.Column className="project-col">
