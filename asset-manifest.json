@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.b8c4c4ad.css",
-    "main.js": "/static/js/main.eb400460.js",
+    "main.js": "/static/js/main.cba99ce2.js",
     "static/media/Zoom-cover-photo.png": "/static/media/Zoom-cover-photo.88c215762c574b850603.png",
     "static/media/breakaway.png": "/static/media/breakaway.404493d5ac176392e340.png",
-    "static/media/shoppies.png": "/static/media/shoppies.9ef421a3852bd15c3d08.png",
     "static/media/5sherpas.png": "/static/media/5sherpas.4eccfa3f97abed05818c.png",
     "static/media/mtn-background.png": "/static/media/mtn-background.9bbf450db0aafdcf4b45.png",
-    "static/media/Luke-Shepherd-Resume.pdf": "/static/media/Luke-Shepherd-Resume.7fceaf197e0161aaf484.pdf",
+    "static/media/Luke-Shepherd-Resume.pdf": "/static/media/Luke-Shepherd-Resume.756ec5bf1225052c8c10.pdf",
     "static/media/brand-icons.svg": "/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/hobby-trend.png": "/static/media/hobby-trend.142c03ad54b99db22648.png",
+    "static/media/mtg-deck-builder.png": "/static/media/mtg-deck-builder.4bcc7e1c7f53df8941f9.png",
     "static/media/day-planner.png": "/static/media/day-planner.2290c5a3aa6c9b2923d1.png",
     "static/media/outline-icons.svg": "/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
     "static/media/icons.eot": "/static/media/icons.a01e3f2d6c83dc3aee17.eot",
@@ -29,10 +29,10 @@
     "static/media/outline-icons.woff2": "/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/index.html",
     "main.b8c4c4ad.css.map": "/static/css/main.b8c4c4ad.css.map",
-    "main.eb400460.js.map": "/static/js/main.eb400460.js.map"
+    "main.cba99ce2.js.map": "/static/js/main.cba99ce2.js.map"
   },
   "entrypoints": [
     "static/css/main.b8c4c4ad.css",
-    "static/js/main.eb400460.js"
+    "static/js/main.cba99ce2.js"
   ]
 }
