@@ -12,7 +12,7 @@ function Contact() {
       <Grid.Row>
         <Grid.Column id="contact-col">
           <p>
-            I am currently located in Seattle, Washington. Please feel free to
+            I am currently located in Portland, Oregon. Please feel free to
             reach out to me.
           </p>
           <a

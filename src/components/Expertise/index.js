@@ -33,7 +33,7 @@ function Expertise() {
             icon="database"
             iconClass="db-align"
             title="Data Management"
-            details="MongoDB -- Mongoose -- NoSQL -- SQL -- Postgres -- MySQL -- Scalable Database Architecture"
+            details="MongoDB -- Mongoose -- NoSQL -- SQL -- PostgreSQL -- MySQL -- Scalable Database Architecture"
           />
         </Grid.Column>
         <Grid.Column className="expert-col">
@@ -41,7 +41,7 @@ function Expertise() {
             icon="cog"
             iconClass="cog-align"
             title="General"
-            details="Java -- Javascript -- Python -- AWS -- Heroku -- Docker -- Terraform -- Git -- CLI -- OOP -- MVC Paradigm -- Computer Science -- Data Structures -- Integrations"
+            details="Java -- JavaScript -- TypeScript -- Python -- AWS -- Heroku -- Docker -- Terraform -- Git -- CLI -- OOP -- MVC Paradigm -- Computer Science -- Data Structures -- Integrations"
           />
         </Grid.Column>
       </Grid.Row>
