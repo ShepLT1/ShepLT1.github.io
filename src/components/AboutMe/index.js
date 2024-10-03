@@ -13,7 +13,7 @@ function AboutMe() {
         <Grid.Column id="about-col">
           <p>
             I'm an enthusiastic full-stack software engineer specializing in
-            Javascript, Python, & Java based frameworks who loves building
+            JavaScript, Python, & Java based frameworks who loves building
             robust, scalable applications.
           </p>
 
