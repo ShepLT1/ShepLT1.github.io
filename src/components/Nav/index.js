@@ -151,7 +151,7 @@ function Nav() {
                 inverted
               />
             </div>
-            <p id="copyright">&copy; 2023 Luke Shepherd</p>
+            <p id="copyright">&copy; {new Date().getFullYear()} Luke Shepherd</p>
           </Grid.Column>
         </Grid.Row>
       </Grid>
