@@ -15,7 +15,7 @@ function Expertise() {
           <ExpertSection
             icon="desktop"
             title="Front End"
-            details="React -- React Router -- Redux -- HTML -- CSS -- Axios -- Mobile Responsive"
+            details="React -- Redux -- Tanstack Query -- HTML -- CSS -- Mobile Responsive -- Data Caching"
           />
         </Grid.Column>
         <Grid.Column className="expert-col">
@@ -23,7 +23,7 @@ function Expertise() {
             icon="server"
             iconClass="server-align"
             title="Back End"
-            details="Go -- Spring -- Django -- Node/Express -- REST/Bulk API -- Authentication/Authrorization -- Integrations/Webhooks -- JWT"
+            details="Go -- Spring -- Django -- Node/Express -- APIs -- Integrations -- JWT Handling"
           />
         </Grid.Column>
       </Grid.Row>
@@ -33,7 +33,7 @@ function Expertise() {
             icon="database"
             iconClass="db-align"
             title="Data Management"
-            details="SQL -- NoSQL -- PostgreSQL -- MySQL -- DynamoDB -- MongoDB -- Scalable Database Architecture"
+            details="SQL -- NoSQL -- PostgreSQL -- MySQL -- DynamoDB -- MongoDB"
           />
         </Grid.Column>
         <Grid.Column className="expert-col">
@@ -41,7 +41,7 @@ function Expertise() {
             icon="cog"
             iconClass="cog-align"
             title="General"
-            details="Go -- Java -- Python -- JavaScript -- TypeScript -- AWS -- Docker -- Terraform -- Git -- CLI -- OOP -- Computer Science -- Data Structures -- Algorithms"
+            details="Go -- Java -- Python -- TS/JS -- AWS -- Docker -- Git -- CLI -- DSA -- CS -- System Design -- AI Integration"
           />
         </Grid.Column>
       </Grid.Row>
