@@ -6,7 +6,7 @@ import PlannerThumbnail from "../../images/day-planner.png";
 import MTGThumbnail from "../../images/mtg-deck-builder.png";
 import WeatherThumbnail from "../../images/weather-forecast.png";
 import SherpaThumbnail from "../../images/5sherpas.png";
-import HobbyThumbnail from "../../images/hobby-trend.png";
+import FoodableThumbnail from "../../images/foodable.png";
 import Heading from "../Header";
 import "../mainStyle.css";
 import "./style.css";
@@ -20,11 +20,11 @@ function Work() {
       <Grid.Row columns={2} className="project-row">
         <Grid.Column className="project-col">
           <Project
-            link="https://github.com/ShepLT1/hobby-trend"
-            repo="https://github.com/ShepLT1/hobby-trend"
-            src={HobbyThumbnail}
-            title="Hobby Trend"
-            brief="Hobby Trend digitally manages collections and tracks market trends for collection-based hobbies."
+            link="https://github.com/ShepLT1/foodable"
+            repo="https://github.com/ShepLT1/foodable"
+            src={FoodableThumbnail}
+            title="Foodable"
+            brief="AI-powered meal planning and grocery management app focused on healthy, affordable, personalized nutrition."
           />
         </Grid.Column>
         <Grid.Column className="project-col">
